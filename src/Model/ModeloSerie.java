@@ -3,13 +3,13 @@ package Model;
 
 public class ModeloSerie extends ModeloFilme {
 	
-	private int temmporada;
+	private int temporada;
 	private int episodios;
-	public int getTemmporada() {
-		return temmporada;
+	public int getTemporada() {
+		return temporada;
 	}
-	public void setTemmporada(int temmporada) {
-		this.temmporada = temmporada;
+	public void setTemporada(int temporada) {
+		this.temporada = temporada;
 	}
 	public int getEpisodios() {
 		return episodios;
